@@ -154,7 +154,7 @@
     }
 
     .home-heading-1{
-        position: relative;
+        position: relative !important;
         font-family: 'Roboto', sans-serif;
         font-size: 30px;
         color: #363c46;
@@ -180,7 +180,7 @@
     }
 
     .home-card-1{
-        position: relative;
+        position: relative !important;
         margin-left: 20px;
         background: linear-gradient(45deg, #ffb791, #ff6a82);
         /* width: 80%; */
@@ -198,7 +198,7 @@
     }
 
     .home-card-2{
-        position: relative;
+        position: relative !important;
         margin-left: 20px;
         background: linear-gradient(45deg, #1c97c5, #39baeb);
         /* width: 80%; */
@@ -721,139 +721,7 @@
         </div>
     </div>
 
-    <!-- Home Screen -->
-    <div id="homeScreen" class="home-screen blur">
-        <div class="home-heading-1">
-            Promu<span class="z-1">z</span>e
-        </div>
-
-        <div class="home-heading-2">
-            
-        </div>
-
-        <div id="hideOnMusic" class="flex h-SCROLL">
-
-            <div class="home-card-1" onclick="playMusic({songImage: 'https://dl.dropboxusercontent.com/s/2heusd367tvv09f/1656511652870.jpg?dl=0', songName: 'မင်းမရှိတဲ့ည', songArtist: 'Cover by Junia Lin', songID: 'https://dl.dropbox.com/s/9vb2ggm7tgumw9t/%E1%80%A1%E1%80%90%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%95%E1%80%B6%E1%80%95%E1%80%AB%E1%80%9B%E1%80%84%E1%80%BA%E1%80%99%E1%80%84%E1%80%BA%E1%80%B8%E1%80%86%E1%80%AE%E1%80%80%E1%80%AD%E1%80%AF%20%20%20Cover%20by%20Junia%20Lin%20.mp3?dl=0'});">
-                <div class="flex home-c--1">
-                    <div class="home-c-1">
-                        <img class="home-c-1-img" src="https://dl.dropboxusercontent.com/s/2heusd367tvv09f/1656511652870.jpg?dl=0">
-                    </div>
-                    <div class="flex home-c-2">
-                        <div class="home-c-2-1">မင်းမရှိတဲ့ည
-                            
-                        </div>
-                        
-                        <div class="home-c-2-2">
-                            Cover by Junia Lin
-                        </div>
-                        <div class="home-c-2-3">
-                            2:30
-                        </div>
-                    </div>
-                    <div class="home-c-3">
-                        <ion-icon name="play" class="home-c-3-1"></ion-icon>
-                    </div>
-                </div>
-                <div class="flex home-c--2">
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="play" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            18M
-                        </div>
-                    </div>
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="heart" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            564K
-                        </div>
-                    </div>
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="download" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            12.2K
-                        </div>
-                    </div>
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="arrow-redo" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            16K
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="home-card-2" onclick="playMusic({songImage: 'https://dl.dropbox.com/s/wq2ahubx0uo1foy/1656512589450.jpg?dl=0', songName: 'အသက်ရှင်သမျှ', songArtist: 'ထူး', songID: 'https://dl.dropboxusercontent.com/s/112wiptokrszf8y/y2mate.com%20-%20%E1%80%A1%E1%80%9E%E1%80%80%E1%80%9B%E1%80%84%E1%80%9E%E1%80%99%20%20%E1%80%91.mp3?dl=0'});">
-                <div class="flex home-c--1">
-                    <div class="home-c-1">
-                        <img class="home-c-1-img" src="https://dl.dropbox.com/s/wq2ahubx0uo1foy/1656512589450.jpg?dl=0">
-                    </div>
-                    <div class="flex home-c-2">
-                        <div class="home-c-2-1">
-                            အသက်ရှင်သမျှ
-                        </div>
-                        <div class="home-c-2-2">
-                            ထူး
-                        </div>
-                        <div class="home-c-2-3">
-                            4:21
-                        </div>
-                    </div>
-                    <div class="home-c-3">
-                        <ion-icon name="play" class="home-c-3-1"></ion-icon>
-                    </div>
-                </div>
-                <div class="flex home-c--2">
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="play" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            42M
-                        </div>
-                    </div>
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="heart" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            812K
-                        </div>
-                    </div>
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="download" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            42K
-                        </div>
-                    </div>
-                    <div class="flex home-c-2--stats-c">
-                        <div class="home-c-2-s-I-c">
-                            <ion-icon name="arrow-redo" class="home-c--2-ICON"></ion-icon>
-                        </div>
-                        <div class="home-c-2-S-VAL">
-                            28K
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="home-card-1 h-c-1-PLUS-1">
-                ..
-            </div>
-        </div>
-
-
-
-  <!-- Home Screen -->
+      <!-- Home Screen -->
     <div id="homeScreen" class="home-screen blur">
       <!---Titel-->
 
@@ -1307,13 +1175,13 @@
                 <ion-icon class="side-c-1-icon" name="arrow-back"></ion-icon>
             </div>
 
-            <a href="index.html" target="_blank">
+            <a href="https://www.sololearn.com/Profile/17904120/?ref=app" target="_blank">
                 <div class="side-c-2 mt-40">
                     Follow Me
                 </div>
             </a>
 
-            <a href="index.html" target="_blank">
+            <a href="https://www.instagram.com/codeninja02/" target="_blank">
             <div class="side-c-2">
                 Visit my Instagram
             </div>
